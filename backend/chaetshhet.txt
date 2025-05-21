@@ -1,0 +1,17 @@
+create two folders , frontend , backend
+in backend install all the packages 
+create a .env file , add port number to it 
+require dotenv config file 
+
+now create a file app.js and add basic express boiler code , and export the app.js file 
+
+create a file server.js for socket.io create a http server and add app.js file to it 
+
+
+datasetup and user register endpoint 
+
+1.in db folder create db.js file  and connect it to mongodb
+
+2. create a model folder in that create a user.model.js 
+  - create a userSchema and add field's such a email:{ type, required , unique:true , trim : true , lowercase:true , minLength:[6 , 'email must be at least 6 char long] , maxLength : [50 , ']}  
+
