@@ -1,30 +1,7 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Exclude .env files in all subdirectories
+**/.env
 
-# Dependency directories
-node_modules
-dist
-dist-ssr
-
-# Local environment files
-*.local
-.env
-frontend/.env
-backend/.env
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Optional: Add common exclusions (node_modules, logs, etc.)
+node_modules/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.log
